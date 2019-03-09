@@ -13,27 +13,26 @@
 		</p>
 		
 		<hr />
-		
+
 		<h2>Give Us Your Money</h2>
-		<dl>
-			<dt>Name</dt>
-			<dd>
-				???
-			</dd>
-			
-			<dt>Section</dt>
-			<dd>
-				???
-			</dd>
-			
-			<dt>Credit Card</dt>
-			<dd>
-				???
-			</dd>
-		</dl>
-		
-		<div>
-			I am a giant sucker.
-		</div>
+	<form action="sucker.php" method="get">	
+		<table>	
+			<tr><td>Name</td></tr>
+		<tr><td> <input type="text" name="name">  </td></tr>
+			<tr><td>Section</td></tr>
+			<tr><td> <select name="section">
+				<option>Engineering Math</option>
+				<option>Computer Architecture</option>
+                <option>System Programming</option>
+				<option>Circuit and Lab</option>
+			</select>  </td></tr>
+			<tr><td>Credit Card</td></tr>
+		<tr><td> <input type="text" name="name1">  </td></tr>
+		<tr><td> <input type="radio" name="name2">Visa </td></tr>
+		<tr><td> <input type="radio" name="name2">Master Card</td></tr>
+		</table>
+<input type="submit" name="submit" value="I am a giant sucker.
+"/>	
+</form>
 	</body>
 </html>
